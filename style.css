@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper0{
+    width: 1451 px;
+    height: 80px;
+    margin: 10px 0;
+    background: transparent;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    border-bottom: rgba(111, 111, 111,0.3) solid 0.2px;
+
+}
+
+.logo1 img{
+    width: 145px;
+    height: 53px;
+    float: left;
+}
+
+.main ul{
+    display: flex;
+}
+
+.main a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #ffff;
+  
+}
+.main a:hover{
+    color:#7c682a;
+}
+.main li{
+    list-style: none;
+    
+}
+.social{
+    width: 175px;
+    height: 10px;
+    align-self: center;
+
+}
+.social ul{
+    
+    display: flex;
+    
+}
+
+.social li{
+    margin: -15px 0 0 0;
+    list-style: none;
+    
+    padding: 15px;
+}
+.social i{
+   
+    color: #ffff;
+}
+
+.pink-back{
+    width: 100%; 
+    height: 105vh; 
+    background-color: #9c4041;
+
+   
+}
+.first-image {
+    background-image: url("camerry-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 105vh;
+    /* margin-top: -100px; */
+    }
+ 
+    
+
+ .sec-back{
+    
+    background-color:#9c4041;
+    display: flex;
+    height: 771px;
+    padding: 41px 0 80px 0;
+    justify-content: center;
+    
+    
+}
+.sec-back img{
+    padding: 0 0 0 61px ;
+
+ }
+ .text-box{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff!important;
+    height: 332.14px;
+    width: 585px;
+    margin: 0 25px;
+    padding: 0 70px;
+    float: left;
+    align-self: center;
+    
+}
+
+.about{
+    
+    font-size: 14px;
+    font-weight: 100px;
+    
+    
+}
+
+.blend{
+    /* max-width: 1199px; */
+    width: 446.6px;
+    height: 162px;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+    
+
+}
+.indulge {
+   
+    font-size: 14px;
+    width: 455px;
+    height: 71.98;
+    font-weight: 400px;
+    line-height: 24px;
+    margin: 0 0 25px;
+}
+.explore{
+    
+    width: 138.13px;
+    height: 46.2px;
+    font-size: 13px;
+    /* padding 9px 34px; */
+     border: 2.5px solid #bc9e33;
+     background-color: #9c4041;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.explore a{
+    font-weight: 500;
+ 
+    text-decoration: none;
+    color: #bc9e33;
+    
+}
+.container2{
+    background-color: #1c1c1c;
+    justify-content: center;
+}
+
+.wrapper3{
+    background-color: #1c1c1c;
+    color: #7c682a;
+    font-family: 'Montserrat', sans-serif;
+    width: 1190px;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    padding: 50px 0;
+    border-bottom: rgba(111, 111, 111,0.3) solid 0.2px;
+   margin: 0 auto;
+    
+}
+.text-box{
+    margin: 0 0 0 50px;
+    align-self: center;
+}
+.foot-text-box h5{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.foot-text-box p{
+    color: #d1bd74;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+
+.contact{
+    width: 153.13px;
+    height: 51.2px;
+    font-size: 13px;
+    /* padding 9px 34px; */
+     border: 2.5px solid #bc9e33;
+     background-color: #1c1c1c;
+     margin: 0 100px 0 0 ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 0 0 420px;
+}
+.contact a{
+    text-decoration: none;
+    color: #7c682a;
+    font-weight: 600;
+}
+
+.wrapper4{
+    background-color: #1c1c1c;
+    color: #7c682a;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 80px 0 50px 0;
+    line-height: 30px;
+    /* margin: 80px 0 0; */
+    
+}
+.logolast{
+    width: 200px;
+    height: 35px;
+    padding: 0 0 0 86px;
+}
+
+.logolast img{
+    width: 100%;
+    height: auto;
+}
+
+.address{
+    width:316.5px;
+    height: 210px;
+    color: #d1bd74;
+    
+}
+.list{
+    padding: 0 86px 0 0;
+    margin: 0 100px 0 0;
+}
+.list li{
+   
+    list-style: none;
+    width: 85.3px;
+    height: 30px;
+    
+   
+    
+}
+.list a{
+    text-decoration: none;
+    color: #d1bd74;
+}
